@@ -1,0 +1,139 @@
+﻿.main-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.upper-container {
+    display: flex;
+    background-color: #ffcd9e;
+}
+
+.lower-container {
+    display: flex;
+    background-color: #282828;
+}
+
+.upper-left,
+.upper-right,
+.lower-left,
+.lower-right {
+    flex: 1;
+    padding: 20px;
+}
+
+.upper-left {
+    color: #282828;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.lower-left {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+
+.lower-right {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.upper-left-para {
+    color: #484848;
+    font-family: Inter;
+    margin-top: -62px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+
+.email-id {
+    color: #888;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    vertical-align: top;
+    font-weight: 600;
+    line-height: 160%;
+    
+   
+}
+
+.email-submit {
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: inline-block;
+    align-items: center;
+    display:inline-block;
+    border-width: 2px 2px 2px 2px;
+    vertical-align: top;
+}
+
+.spam {
+    color: #fff;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%; 
+    margin-top:-26px;
+}
+
+h6 {
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.bolder {
+    font-weight: bold;
+    margin-top: 40px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top:-10px;
+}
+img{
+    max-width:100%;
+    height:auto;
+    display:inline-block;
+    vertical-align:middle;
+    margin-top: 50px;
+    max-height:600px;
+    margin-right:10px;
+}
+.logos{
+    margin-top:-44px;
+}
